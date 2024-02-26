@@ -21,6 +21,15 @@ Route::get('/', function () {
 Route::get('/Perfil', function () {
     return view('perfile.perfil');
 });
+Route::get('/Home', function () {
+    return view('pixicinema');
+});
+Route::get('/Peliculas', function () {
+    return view('pelicula.pelicula');
+});
+Route::get('/Series', function () {
+    return view('series.series');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

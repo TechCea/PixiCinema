@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/netflix-icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Capi.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('css/user.css') }}">
 
 
@@ -19,7 +20,7 @@
 
         <div class="card-users">
             <div class="card">
-                <a href="home-user.html">
+                <a href="#">
                     <img src="img/rei.jpg">
                     <p>Walter</p>
                 </a>
@@ -27,7 +28,7 @@
 
             <div class="card-users2">
                 <div class="card">
-                    <a href="home-user.html">
+                    <a href="#">
                         <img src="img/5fb80e34333482d9548ba960f70f5926.jpg">
                         <p>Javier</p>
                     </a>
@@ -41,14 +42,12 @@
             </div>
 
             <div class="card">
-                <a href="">
+                <a href="/Home">
                     <img src="img/perfil03.png">
                     Agregar perfil
                 </a>
             </div>
         </div>
-
-        <a href="">Generar perfil</a>
     </div>
 </body>
 

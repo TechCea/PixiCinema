@@ -14,4 +14,5 @@
             </div>
         </div>
     </div>
+    <a href="/Perfil">Perfiles</a>
 </x-app-layout>

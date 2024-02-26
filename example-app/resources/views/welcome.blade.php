@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="shortcut icon" href="img/Capi.png" type="image/x-icon">
         <title>Pixicinema</title>
 
         <!-- Fonts -->
@@ -14,7 +14,7 @@
     </head>
     <body class="antialiased">
         
-            <div class="fondo1"></div>
+    <div class="fondo1"></div>
     <div class="fondo2"></div>
     <div class="fondo3"></div>
     <div class="fondo4"></div> 

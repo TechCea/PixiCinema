@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 :root{
@@ -46,6 +46,7 @@ header img{
     justify-content: space-between;
     align-items: center;
     width: 540px;
+    font-size: 10px;
 }
 
 .card-users2{

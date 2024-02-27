@@ -86,22 +86,6 @@
                 <img src="img/youtube.png" alt="">
 
             </div>
-
-            <ul class="listas">
-                <li>Idioma y subtítulos</li>
-                <li>Centro de ayuda</li>
-                <li>Centro de ajuda</li>
-                <li>Tarjeta de prepago</li>
-                <li>relación con los inversores</li>
-                <li>Terminos de uso</li>
-                <li>Privacida</li>
-                <li>Avisos legales</li>
-                <li>Preferências de cookies</li>
-                <li>Informacion corporativa</li>
-                <li>Entre en contacto</li>
-            </ul>
-
-            <a>Código de servicio</a>
         </div>
     </footer>
 

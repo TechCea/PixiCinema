@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\PeliculaController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PerfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,6 +32,10 @@ Route::get('/Series', function () {
     return view('series.series');
 });
 
+Route::resource('pelicula', PeliculaController::class);
+
+Route::resource('perfiles', PerfileController::class);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -42,3 +47,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+

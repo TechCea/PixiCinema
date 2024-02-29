@@ -4,6 +4,8 @@ use App\Http\Controllers\PeliculaController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PerfileController;
+use App\Http\Controllers\ListaRepController;
+use App\Http\Controllers\TipoVideoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,6 +37,10 @@ Route::get('/Series', function () {
 Route::resource('pelicula', PeliculaController::class);
 
 Route::resource('perfiles', PerfileController::class);
+
+Route::resource('lista', ListaRepController::class);
+
+Route::resource('Tipo', TipoVideoController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

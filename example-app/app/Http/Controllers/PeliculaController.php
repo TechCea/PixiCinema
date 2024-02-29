@@ -47,7 +47,7 @@ class PeliculaController extends Controller
 
         $pelicula = Pelicula::create($request->all());
 
-        return redirect()->route('peliculas.index')
+        return redirect()->route('pelicula.index')
             ->with('success', 'Pelicula created successfully.');
     }
 
@@ -90,7 +90,7 @@ class PeliculaController extends Controller
 
         $pelicula->update($request->all());
 
-        return redirect()->route('peliculas.index')
+        return redirect()->route('pelicula.index')
             ->with('success', 'Pelicula updated successfully');
     }
 
@@ -103,7 +103,7 @@ class PeliculaController extends Controller
     {
         $pelicula = Pelicula::find($id)->delete();
 
-        return redirect()->route('peliculas.index')
+        return redirect()->route('pelicula.index')
             ->with('success', 'Pelicula deleted successfully');
     }
 }

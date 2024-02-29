@@ -14,7 +14,7 @@
                             <span class="card-title">{{ __('Show') }} Pelicula</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('peliculas.index') }}"> {{ __('Back') }}</a>
+                            <a class="btn btn-primary" href="{{ route('pelicula.index') }}"> {{ __('Back') }}</a>
                         </div>
                     </div>
 
